@@ -1,0 +1,12 @@
+Problem Statement
+Imagine you're managing the inventory for a warehouse that stores various items, each with a unique identifier (such as a product code or serial number). The inventory system is structured as a binary search tree, where each node represents an item in the inventory, and the values of the nodes correspond to the item quantities.
+Let's say the warehouse supervisor needs to assess the inventory levels of certain products within a specified quantity range to determine restocking priorities.
+For example:
+● "low" could represent the minimum quantity threshold, indicating the minimum number of items required to maintain stock levels.
+● "high" could represent the maximum quantity threshold, indicating the maximum number of items that can be stored before excess inventory is reached.
+
+Your task is to develop a function within the inventory management system that takes the root node of the binary search tree representing the inventory, 
+along with the minimum and maximum quantity thresholds (low and high), and returns the total quantity of items within this specified range.
+
+Requirements:
+Formulate an efficient algorithm using BST to perform the above task.
